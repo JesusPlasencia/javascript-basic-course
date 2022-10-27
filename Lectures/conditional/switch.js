@@ -11,3 +11,8 @@ switch (numero) {
         console.log("Le erraste a todo viejo");
         break;
 }
+
+switch (false) {
+    case false: console.log("Soy false :(");
+    case true: console.log("Soy verdadero");
+}
